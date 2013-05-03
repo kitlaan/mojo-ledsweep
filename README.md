@@ -1,12 +1,7 @@
-mojo-empty
+mojo-ledsweep
 ==========
 
-Empty makefile project for Mojo development.
+Sweep (and fade) the LEDs on the Mojo board.
 
-For Mojo information, see http://embeddedmicro.com/tutorials/the-mojo
+Code from http://embeddedmicro.com/tutorials/the-mojo/pulse-width-modulation
 
-Usage
-----------------------
-* Download and install Xilinx ISE WebPACK Design Suite
-* Modify Makefile (or create config.user) to specify 'isedir' and 'xil_arch' correctly
-* Run 'make'
