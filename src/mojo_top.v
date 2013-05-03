@@ -18,7 +18,11 @@ wire rst = ~rst_n;
 assign spi_miso = 1'bz;
 assign avr_rx = 1'bz;
 assign spi_channel = 4'bzzzz;
-	 
-assign led = 8'b0;
+
+ledsweep ledSweeper (
+    .clk(clk),
+    .rst(rst),
+    .led(led)
+);
 
 endmodule

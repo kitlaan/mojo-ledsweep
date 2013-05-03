@@ -10,7 +10,8 @@ vfiles = src/mojo_top.v \
 	 src/avr_interface.v \
 	 src/spi_slave.v \
 	 src/serial_rx.v \
-	 src/serial_tx.v
+	 src/serial_tx.v \
+	 src/ledsweep.v
 
 -include config.user
 include xilinx.mk
